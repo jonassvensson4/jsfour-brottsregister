@@ -7,7 +7,7 @@ Du får mer än gärna ändra vad du vill i scriptet men du får INTE sälja vid
 ### INFO
 För att scriptet ska fungera så behöver du använda dig av ESX.
 
-Hur man installerat och använder scriptet får du räkna ut själv då jag inte laddar upp det här scriptet av fri vilja.
+Hur man installerar och använder scriptet får du räkna ut själv då jag inte laddar upp det här scriptet av fri vilja.
 
 ### Screenshot
 ![screenshot](https://i.imgur.com/6Cp2DHt.png)
