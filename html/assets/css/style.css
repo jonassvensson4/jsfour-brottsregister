@@ -1,0 +1,51 @@
+body {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+#papper {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: white;
+  width: 700px;
+  height: 840px;
+  margin: 40px 0 0 588px;
+  padding: 40px;
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.3);
+}
+p {
+  margin-top: 40px !important;
+  font-weight: bold;
+}
+input {
+  padding-left: 10px !important;
+  height: 30px !important;
+  width: 608px !important;
+  border: 1px solid black !important;
+  box-sizing: border-box;
+}
+input:focus {
+  box-shadow: none !important;
+}
+button {
+  width: 621px;
+  background: #efefef !important;
+}
+#player-search {
+  display: none;
+}
+#player-found {
+  display: none
+}
+#player-null {
+  display: none;
+}
+#search-icon {
+  display: none;
+  float: right;
+  color: #444;
+}
+#search-icon i {
+  margin-left: 10px;
+  vertical-align: middle;
+}

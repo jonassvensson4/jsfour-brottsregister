@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div id="papper">
+      <img src="assets/images/polisen.png" alt="Polisen" draggable="false"/>
+      <a href="#" id="search-icon">Tillbaks till sök<i class="material-icons">search</i></a>
+      <div id="player-search">
+        <form>
+          <p>Personnummer (ÅÅÅÅ-MM-DD-XXXX)</p>
+          <input id="personnummer" />
+        </form>
+        <button id="button-search" class="btn-flat waves-effect">Sök</button>
+      </div>
+      <div id="player-found">
+        <p>Resultat för personummer <span id="personummer-span"></span></p>
+        <span>Fann en person vid namn <span id="name"></span>.</span>
+        <table class="striped">
+          <thead>
+            <tr>
+              <th>Datum</th>
+              <th>Brott</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+      <div id="player-null">
+        <p>Resultat för personummer <span id="personummer-span"></span></p>
+        <span>Hittade ingen med det personnumret.</span>
+      </div>
+    </div>
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+    <script src="assets/js/materialize.js" type="text/javascript"></script>
+    <script src="assets/js/init.js" type="text/javascript"></script>
+  </body>
+</html>
