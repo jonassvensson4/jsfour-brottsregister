@@ -10,6 +10,7 @@ För att scriptet ska fungera så behöver du använda dig av ESX.
 ### INSTALLATION
 * Kör SQL-filen
 * Lägg till lastdigits i tabellerna users och charachters, <a href="https://github.com/jonassvensson4/jsfour-register">jsfour-register<a/> har en SQL-fil du kan köra
+  - Du måste ha ett script, alternativt lägga in lastdigits själv på alla användare då scriptet kräver detta
 * Hur lägger man till en spelare i brottsregistret?
   - Det får man välja själv. Det finns ett event i server.lua du ska använda. Många väljer att lägga till det eventet när någon blir jailad
 
