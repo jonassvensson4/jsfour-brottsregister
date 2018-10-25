@@ -1,4 +1,8 @@
 # jsfour-brottsregister
+
+NO SUPPORT Please use my new <a href="https://github.com/jonassvensson4/jsfour-criminalrecord">jsfour-criminalrecord<a/> instead
+
+
 Ett script som låter dig spara ner brott till en databas som du sedan kan kolla på ingame.
 
 ### LICENSE
